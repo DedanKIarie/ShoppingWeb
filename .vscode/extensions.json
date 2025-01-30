@@ -3,6 +3,7 @@
       "ecmel.vscode-html-css",  // Html
       "Oracle.oracle-java",      // java
       "xabikos.JavaScriptSnippets",      // javascript
+      "ritwickdey.LiveServer", //live view
     ]
   }
  

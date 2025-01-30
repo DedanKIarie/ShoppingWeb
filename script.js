@@ -75,5 +75,16 @@ function purchaseall() {
     } else {
         console.log("You have nothing in your cart")
     }
+    document.getElementById("cash").innerText = balance+" Cash"
+}
 
+function Accept() {
+    event.preventDefault(); 
+   let Amount =  document.getElementById("Total").value;
+    let button = document.getElementById("Send")
+    balance = Amount
+    let fullscreen = document.getElementById("fullscreen")
+    fullscreen.remove()
+    console.log(balance)
+    document.getElementById("cash").innerText = balance+" Cash"
 }
